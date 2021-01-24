@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <locale lang="en"/>
+  <options hw="ch341a" CHIP="W25Q32" clear="0" skipff="1" unprot="0" verify="0" busyskip="0" mw_speed="32Khz" spi_speed="1_5Mhz" blankcheck="0" LoadLastDev="1" arduino_comport="" arduino_baudrate="1000000"/>
+  <Windows DPI="96" Top="181" Left="236" LogH="101" Width="766" Height="550"/>
+</settings>

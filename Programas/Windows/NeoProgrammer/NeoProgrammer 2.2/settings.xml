@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <locale lang="pt"/>
+  <options hw="ch341a" clear="1" skipff="1" unprot="0" verify="1" moredev="1" chipname="W25Q32" spi_speed="1_5Mhz" blankcheck="0" LoadLastDev="1" SaveFhistory="1"/>
+  <Windows DPI="96" Top="75" Left="1735" LogH="259" Width="886" Height="636"/>
+  <ChipHistory list="W25Q32 [3.3V],W25Q64xV [3.3V],W25Q128FW [1.8V],W25Q80BL [3.3V],EN25F16 [3.3V],MX25V4006E [3.3V],MX25L4005 [3.3V],MX25L4026E [3.3V],MX25L4006E [3.3V],MX25L1606E [3.3V]"/>
+  <FileHistory file0="C:\Users\pc\Desktop\kazuk.bin" file1="C:\Users\pc\Desktop\Ferramentas\Bios Recorrentes Placa Mãe\[YTEC] IPMH61R2.bin" file2="C:\Users\pc\Desktop\A320M-HD(6.20)ROM\A32HD6.20" file3="C:\Users\pc\Desktop\mb_bios_ga-ab350-gaming_f50d\AB350G.50d" file4="C:\Users\pc\Desktop\x79G\x79g v1.2 cpu ram timings.bin" file5="C:\Users\pc\Desktop\Huanan X79 v2.46.Bin" file6="C:\Users\pc\Desktop\H61MXV_H67MXV.BIN" file7="C:\Users\pc\Desktop\Intel DH61HO ( IT8728F-CXA).bin" file8="C:\Users\pc\Desktop\ASRock N68C-S UCC BIOS Dump\ASRock N68C-S UCC EEPROM W25Q80BVSSIG.bin" file9="C:\Users\pc\Desktop\ASUS H81M-E.bin"/>
+</settings>

@@ -1,0 +1,250 @@
+<html lang="en"> 
+<head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta http-equiv="Content-Language" content="en"> </head>
+
+<body><table border="1" cellpadding="5" cellspacing="0">
+	<tbody>
+		<tr>
+			<td colspan="2" style="text-align: center;"><font size="5"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sections</font></font></b></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{$ read}</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Section code is executed when the read memory button is pressed.</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{$ write}</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The section code is executed when the memory record button is pressed.</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{$ erase}</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The section code is executed when the memory erase button is pressed.</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{$ verify}</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Section code is executed when the memory comparison button is pressed.</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{$ unlock}</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Section code is executed when the unprotect button is pressed.</font></font></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;"><font size="5"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Predefined variables</font></font></b></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_IC_Name</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The name of the currently selected chip&nbsp;</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_IC_Size</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Size, in bytes, of the currently selected chip</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_IC_Spare</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Spare area size, in bytes, of the currently selected SPI NAND chip</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_IC_Page</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Page size, in bytes, of the currently selected chip&nbsp;</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_SPI_SPEED_MAX</font></font></b></td>
+			<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The highest possible frequency for&nbsp; </font></font><b style="text-align: center;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPISetSpeed</font></font></b></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;"><b><font size="5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Main functions</font></font></font></b></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ShowMessage ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">text+'\n'+text</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> );</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Analogue ShowMessage (use '\n' string for multi line)</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LogPrint ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">text</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> );</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Print a message to the log </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					Parameters: </font></font><br>
+					&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">text</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> message text </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IntToHex ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">value</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">digits</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): string;</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;Analog IntToHex</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ProgressBar ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inc</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">max</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pos</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> );</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;Sets the status of the ProgressBar </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					Parameters: </font></font><br>
+					&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inc</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> how much the position is increased </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					Optional parameters: </font></font><br>
+					&nbsp;&nbsp; <font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">max</font></font></b></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> maximum position ProgressBar </font></font><br>
+					&nbsp;&nbsp; <font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pos</font></font></b></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> sets the specific position of the ProgressBar</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CreateByteArray ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): variant;</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Creates an array with varbyte element type</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CreateStringArray ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): variant;</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Creates an array of string</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GetArrayItem ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">array</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">index</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): variant;</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Returns the value of an array element</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SetArrayItem ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">array</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">index</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">value</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> );</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sets the value of an array element</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ReadToEditor ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">position</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer, ...</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> );</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Writes data from the buffer to the size editor at position</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WriteFromEditor ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">position</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer, ...</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> );</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Writes data from size editor from position</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GetEditorDataSize: longword;</font></font></b></td>
+			<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Returns data size in editor</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;"><font size="5"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Work with SPI</font></font></b></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPIEnterProgMode ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">speed</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): boolean;</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Initializes the pin state for SPI and sets the SPI frequency &nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp; Parameters: </font></font><br>
+					&nbsp; &nbsp; <font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">speed</font></font></b></font><br>
+					&nbsp; &nbsp; <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> _SPI_SPEED_MAX</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;= AvrIsp 8 (4) MHz / USbAsp 3 MHz </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;If the frequency is not set, returns false </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;Ignored for devices with a fixed frequency</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPIExitProgMode ();</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Disables SPI pins</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPIRead ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer</font></font></font></b><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , ... </font></font></b><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">): integer;</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reads data to buffer&nbsp;&nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; Parameters:&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></b></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> if </font></font><font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></b></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> = 1 release Chip Select after reading data </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></b></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> data&nbsp;&nbsp; </font><font color="#0000FF"><b><font style="vertical-align: inherit;">size</font></b></font><font style="vertical-align: inherit;"> in bytes&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <font color="#0000FF"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer</font></font></b></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> variables for storing data or an array created by </font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CreateByteArray</font></font></b>&nbsp;&nbsp;<br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+					&nbsp;&nbsp; Returns the number of bytes read</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPIWrite ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer</font></font></font></b><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , ... </font></font></b><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">): integer;</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Writes data from the buffer&nbsp;&nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; Parameters:&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font> </b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> if </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> = 1 release Chip Select after writing data </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> data&nbsp;&nbsp; </font><b><font color="#0000FF"><font style="vertical-align: inherit;">size</font></font></b><font style="vertical-align: inherit;"> in bytes&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> data variables or array created </font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CreateByteArray&nbsp;&nbsp;</font></font></b><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+					&nbsp;&nbsp; Returns the number of written bytes</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPIReadToEditor ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): integer;</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reads data to the editor&nbsp;&nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; Parameters:&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> if </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> = 1 release Chip Select after reading data </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font> </b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> data&nbsp;&nbsp; </font><b><font color="#0000FF"><font style="vertical-align: inherit;">size</font></font></b><font style="vertical-align: inherit;"> in bytes&nbsp;&nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; Returns the number of bytes read</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPIWriteFromEditor ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cs</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">position</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): integer;</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">From Writes data size editor </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> from the standpoint </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">position&nbsp;&nbsp;</font></font></font></b><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+					&nbsp;&nbsp; parameters:&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Cs</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> if </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Cs</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> = 1 release, after Chip Select data record&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> data size in bytes of the&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">position</font></font></font> </b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> the position in the editor&nbsp;&nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; returns the number of bytes written</font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;"><font size="5"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Work with I2C</font></font></b></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2CEnterProgMode ();</font></font></b></td>
+				<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;Initializes the state of the pins</font></font></p>
+			    </td>
+			
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2cExitProgMode ();</font></font></b></td>
+				<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;Disables pins</font></font></p>
+			    </td>
+			
+		</tr>	
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2CReadWrite ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DevAddr</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wsize</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rsize</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wbuffer</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rbuffer</font></font></font></b><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): integer;</font></font></b></td>
+			<td>
+				<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Writes / reads data from buffers&nbsp;&nbsp; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; Parameters:&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DevAddr</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> device address&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">size</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> data size in bytes&nbsp;&nbsp; </font></font><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">buffer</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> variable data or array created </font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CreateByteArray&nbsp;&nbsp;</font></font></b><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+					&nbsp;&nbsp; Returns the number of recorded bytes read + </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+					&nbsp;&nbsp; * If </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rsize</font></font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> = 0 can omit the parameter </font></font><b><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rbuffer</font></font></font></b></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2CStart ();</font></font></b></td>
+				<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Used with I2CReadByte and I2CWriteByte</font></font></p>
+			    </td>
+			
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2CStop ();</font></font></b></td>
+				<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Used with I2CReadByte and I2CWriteByte</font></font></p>
+			    </td>
+			
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2CReadByte ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ack</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : boolean): byte;</font></font></b></td>
+				<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reads a data byte and sends ack / nack</font></font></p>
+			    </td>
+			
+		</tr>
+		<tr>
+			<td style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I2CWriteByte ( </font></font><font color="#0000FF"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">data</font></font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ): boolean;</font></font></b></td>
+				<td style="text-align: center;">
+				<p align="left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Writes a data byte and returns ack / nack</font></font></p>
+			    </td>
+			
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>

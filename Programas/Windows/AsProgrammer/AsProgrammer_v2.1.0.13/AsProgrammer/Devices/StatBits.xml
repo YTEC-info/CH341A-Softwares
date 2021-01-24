@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusBits>
+  <FLASH25>
+    <DEFAULT>
+      <flash signature="FFFFFF" name="default">
+        <sreg1>S0,S1,S2,S3,S4,S5,S6,S7</sreg1>
+        <sreg2>S8,S9,S10,S11,S12,S13,S14,S15</sreg2>
+        <sreg3>S16,S17,S18,S19,S20,S21,S22,S23</sreg3>
+      </flash>
+    </DEFAULT>
+    <MICRON>
+      <flash signature="20BA20" name="MT25Q512">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,TB,SRP0</sreg1>
+        <sreg2>,,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+    </MICRON>
+    <MACRONIX>
+      <flash signature="C212" name="MX35LF1GE4AB">
+          <sreg1>SP,Comp,Inv,BP0,BP1,BP2,,BPRWD</sreg1>
+          <sreg2>QE,,,,ECC-E,,OTP-E,OTP-L</sreg2>
+          <sreg3>BUSY,WEL,E-FAIL,P-FAIL,ECC-S0,ECC-S1,CRBSY,</sreg3>
+      </flash>
+      <flash signature="C222" name="MX35LF2GE4AB">
+          <sreg1>,,,BP0,BP1,BP2,,BPRWD</sreg1>
+          <sreg2>QE,,,,ECC-E,,OTP-E,OTP-L</sreg2>
+          <sreg3>BUSY,WEL,E-FAIL,P-FAIL,ECC-S0,ECC-S1,,</sreg3>
+      </flash>
+      <flash signature="C220" name="MX35LF2G14AC">
+          <sreg1>SP,Comp,Inv,BP0,BP1,BP2,,BPRWD</sreg1>
+          <sreg2>QE,,,,,,OTP-E,OTP-L</sreg2>
+          <sreg3>BUSY,WEL,E-FAIL,P-FAIL,,,CRBSY,</sreg3>
+      </flash>
+      <flash signature="C290" name="MX35UF1G14AC_1.8V">
+          <sreg1>SP,Comp,Inv,BP0,BP1,BP2,,BPRWD</sreg1>
+          <sreg2>QE,,,,,,OTP-E,OTP-L</sreg2>
+          <sreg3>BUSY,WEL,E-FAIL,P-FAIL,,,,</sreg3>
+      </flash>
+      <flash signature="C2A0" name="MX35UF2G14AC_1.8V">
+          <sreg1>SP,Comp,Inv,BP0,BP1,BP2,,BPRWD</sreg1>
+          <sreg2>QE,,,,,,OTP-E,OTP-L</sreg2>
+          <sreg3>BUSY,WEL,E-FAIL,P-FAIL,,,,</sreg3>
+      </flash>
+    </MACRONIX>
+    <WINBOND>
+      <flash signature="EF4012" name="W25Q20">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6012" name="W25Q20_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4013" name="W25Q40">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6013" name="W25Q40_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4014" name="W25Q80">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6014" name="W25Q80_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4015" name="W25Q16">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6015" name="W25Q16_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4016" name="W25Q32">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6016" name="W25Q32_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4017" name="W25Q64FV">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6017" name="W25Q64FW_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4018" name="W25Q128FV">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF6018" name="W25Q128FW_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>,,WPS,,,DRV0,DRV1,HOLD/RST</sreg3>
+      </flash>
+      <flash signature="EF4019" name="W25Q256FV">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>ADS,ADP,WPS,,,DRV0,DRV1,</sreg3>
+      </flash>
+      <flash signature="EF6019" name="W25Q256FW_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,TB,SEC,SRP0</sreg1>
+        <sreg2>SRP1,QE,,LB1,LB2,LB3,CMP,SUS</sreg2>
+        <sreg3>ADS,ADP,WPS,,,DRV0,DRV1,</sreg3>
+      </flash>
+      <flash signature="EFAA21" name="W25N01GV">
+        <sreg1>SRP1,WP-E,TB,BP0,BP1,BP2,BP3,SRP0</sreg1>
+        <sreg2>,,,BUF,ECC-E,SR1-L,OTP-E,OTP-L</sreg2>
+        <sreg3>BUSY,WEL,E-FAIL,P-FAIL,ECC-0,ECC-1,LUT-F,</sreg3>
+      </flash>
+      <flash signature="EFAB21" name="W25N02GV">
+        <sreg1>SRP1,WP-E,TB,BP0,BP1,BP2,BP3,SRP0</sreg1>
+        <sreg2>,,,BUF,ECC-E,SR1-L,OTP-E,OTP-L</sreg2>
+        <sreg3>BUSY,WEL,E-FAIL,P-FAIL,ECC-0,ECC-1,LUT-F,</sreg3>
+      </flash>
+    </WINBOND>
+    <GIGADEVICE>
+      <flash signature="C84010" name="GD25Q512">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84011" name="GD25Q10">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84012" name="GD25Q20">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84013" name="GD25Q40">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84014" name="GD25Q80">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84015" name="GD25Q16">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84016" name="GD25Q32">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C84017" name="GD25Q64">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,SUS2,LB1,LB2,LB3,CMP,SUS1</sreg2>
+        <sreg3>,,,,HPF,DRV0,DRV1,</sreg3>
+      </flash>
+      <flash signature="C84018" name="GD25Q128">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,SUS2,LB1,LB2,LB3,CMP,SUS1</sreg2>
+        <sreg3>,,,,HPF,DRV0,DRV1,</sreg3>
+      </flash>
+      <flash signature="C86017" name="GD25LQ64_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,SUS2,LB1,LB2,LB3,CMP,SUS1</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C86018" name="GD25LQ128_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,SUS2,LB1,LB2,LB3,CMP,SUS1</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+      <flash signature="C86019" name="GD25LQ256_1.8V">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,BP4,SRP0</sreg1>
+        <sreg2>SRP1,QE,SUS2,EN4B,LB2,LB3,CMP,SUS1</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+    </GIGADEVICE>
+    <SST>
+      <flash signature="FFFFFF" name="default">
+        <sreg1>BUSY,WEL,BP0,BP1,BP2,BP3,AAI,BPL</sreg1>
+        <sreg2>,,,,,,,</sreg2>
+        <sreg3>,,,,,,,</sreg3>
+      </flash>
+    </SST>
+  </FLASH25>
+  <EEPROM>
+    <EEP95>
+      <eep name="default">
+        <sreg1>BUSY,WEL,BP0,BP1,,,,</sreg1>
+      </eep>
+      <eep name="M95M01">
+        <sreg1>BUSY,WEL,BP0,BP1,,,,SRWD</sreg1>
+      </eep>
+      <eep name="M95M02">
+        <sreg1>BUSY,WEL,BP0,BP1,,,,SRWD</sreg1>
+      </eep>
+    </EEP95>
+    <EEP45DB>
+
+    </EEP45DB>
+  </EEPROM>
+
+</StatusBits>

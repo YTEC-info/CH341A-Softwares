@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <locale lang="en"/>
+  <options hw="ch341a" skipff="0" verify="0" mw_speed="32Khz" spi_speed="1_5Mhz" arduino_comport="" arduino_baudrate="1000000"/>
+</settings>

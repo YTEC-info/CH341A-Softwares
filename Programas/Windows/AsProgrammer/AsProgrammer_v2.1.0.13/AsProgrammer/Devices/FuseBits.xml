@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fuseBits>
+  <mcu signature="1E9781" name="AT90CAN128">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>TA0SEL,BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9581" name="AT90CAN32">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>TA0SEL,BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9681" name="AT90CAN64">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>TA0SEL,BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9381" name="AT90PWM2">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BOOTRST,BOOTSZ0,BOOTSZ1,,PSCRV,PSC0RB,PSC1RB,PSC2RB</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9383" name="AT90PWM2B">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BOOTRST,BOOTSZ0,BOOTSZ1,,PSCRV,PSC0RB,,PSC2RB</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9001" name="AT90S1200">
+    <high>,,,,,,,</high>
+    <low>,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB1,LB2,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9101" name="AT90S2313">
+    <high>,,,,,,,</high>
+    <low>,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB1,LB2,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9103" name="AT90S2343">
+    <high>,,,,,,,</high>
+    <low>RCEN,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB2,LB1,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9201" name="AT90S4414">
+    <high>,,,,,,,</high>
+    <low>,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB2,LB1,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9203" name="AT90S4433">
+    <high>,,,,,,,</high>
+    <low>,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB2,LB1,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9301" name="AT90S8515">
+    <high>,,,,,,,</high>
+    <low>,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB2,LB1,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9303" name="AT90S8535">
+    <high>,,,,,,,</high>
+    <low>,,,,,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB2,LB1,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9782" name="AT90USB1286/1287">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,HWBE,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9482" name="AT90USB162">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,RSTDSBL,DWEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,HWBE,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9682" name="AT90USB646/647">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,HWBE,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9702" name="ATmega128">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>WDTON,M103C,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9703" name="ATmega1280">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9704" name="ATmega1281">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9705" name="ATmega1284P">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9403" name="ATmega16">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9489" name="ATmega16U2">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,RSTDSBL,DWEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,HWBE,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9401" name="ATmega161">
+    <high>,,,,,,,</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,,SUT,,BOOTRST,</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9404" name="ATmega162">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>,BODLEVEL0,BODLEVEL1,BODLEVEL2,M161C,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9402" name="ATmega163">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,,,,,</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,,,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E940a" name="ATmega164P">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9406" name="ATmega168">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BOOTRST,BOOTSZ0,BOOTSZ1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E940b" name="ATmega168P">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BOOTRST,BOOTSZ0,BOOTSZ1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9405" name="ATmega169">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>,BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9801" name="ATmega2560">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9802" name="ATmega2561">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9502" name="ATmega32">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E958A" name="ATmega32U2">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,RSTDSBL,DWEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,HWBE,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9508" name="ATmega324P">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9505" name="ATmega325">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9506" name="ATmega3250">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9514" name="ATmega328">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,SPIEN,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E950f" name="ATmega328P">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,SPIEN,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9503" name="ATmega329">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9504" name="ATmega3290">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9507" name="ATmega406">
+    <high>JTAGEN,OCDEN,,,,,,</high>
+    <low>CKSEL,SUT0,SUT1,BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9205" name="ATmega48">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E920a" name="ATmega48P">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9602" name="ATmega64">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>WDTON,M103C,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9608" name="ATmega640">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9609" name="ATmega644">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E960a" name="ATmega644P">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9605" name="ATmega645">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9606" name="ATmega6450">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9603" name="ATmega649">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9604" name="ATmega6490">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,JTAGEN,OCDEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>RSTDISBL,BODLEVEL0,BODLEVEL1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9307" name="ATmega8">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,WDTON,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9389" name="ATmega8U2">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,WDTON,,RSTDSBL,DWEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BODLEVEL0,BODLEVEL1,BODLEVEL2,HWBE,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9306" name="ATmega8515">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,WDTON,S8515C</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9308" name="ATmega8535">
+    <high>BOOTRST,BOOTSZ0,BOOTSZ1,EESAVE,CKOPT,,WDTON,S8535C</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E930a" name="ATmega88">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BOOTRST,BOOTSZ0,BOOTSZ1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E930f" name="ATmega88P">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>BOOTRST,BOOTSZ0,BOOTSZ1,,,,,</ext>
+    <lock>LB1,LB2,BLB01,BLB02,BLB11,BLB12,,</lock>
+  </mcu>
+  <mcu signature="1E9004" name="ATtiny11">
+    <high>,,,,,,,</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,RSTDISBL,FSTRT,,,</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB1,LB2,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9005" name="ATtiny12">
+    <high>,,,,,,,</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,RSTDISBL,SPIEN,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB1,LB2,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9007" name="ATtiny13">
+    <high>RSTDISBL,BODLEVEL0,BODLEVEL1,DWEN,SELFPRGEN,,,</high>
+    <low>CKSEL0,CKSEL1,SUT0,SUT1,CKDIV8,WDTON,EESAVE,</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9006" name="ATtiny15">
+    <high>,,,,,,,</high>
+    <low>CKSEL0,CKSEL1,,,RSTDISBL,SPIEN,BODEN,BODLEVEL</low>
+    <ext>,,,,,,,</ext>
+    <lock>,LB1,LB2,,,,,</lock>
+  </mcu>
+  <mcu signature="1E910a" name="ATtiny2313">
+    <high>RSTDISBL,BODLEVEL0,BODLEVEL1,BODLEVEL2,WDTON,,EESAVE,DWEN</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E910b" name="ATtiny24">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9108" name="ATtiny25">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9109" name="ATtiny26">
+    <high>BODEN,BODLEVEL,EESAVE,,RSTDISBL,,,</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOPT,PLLCK</low>
+    <ext>,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E910c" name="ATtiny261">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9207" name="ATtiny44">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9206" name="ATtiny45">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9208" name="ATtiny461">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E930c" name="ATtiny84">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E930b" name="ATtiny85">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E930d" name="ATtiny861">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,CKSEL2,CKSEL3,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+  <mcu signature="1E9311" name="ATtiny88">
+    <high>BODLEVEL0,BODLEVEL1,BODLEVEL2,EESAVE,WDTON,,DWEN,RSTDISBL</high>
+    <low>CKSEL0,CKSEL1,,,SUT0,SUT1,CKOUT,CKDIV8</low>
+    <ext>SELFPRGEN,,,,,,,</ext>
+    <lock>LB1,LB2,,,,,,</lock>
+  </mcu>
+</fuseBits>

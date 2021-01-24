@@ -1,0 +1,35 @@
+._*
+.DS_Store
+ch341eeprom
+mktestimg
+
+*~.nib
+DerivedData/
+build/
+!xcshareddata
+*.moved-aside
+profile
+.idea/
+
+*.bin
+
+# Ignore user-specific Xcode settings
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Whitelist default Xcode settings
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Ignore Xcode 4 semi-personal settings, often included in workspaces
+xcuserdata
+
+# Vim
+
+.*.swp
+tags
+

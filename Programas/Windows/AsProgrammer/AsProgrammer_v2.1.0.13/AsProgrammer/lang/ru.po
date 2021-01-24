@@ -1,0 +1,681 @@
+#Русский
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: avrfuses.fus_str_msg
+msgid "AVR Fuses and Bit Lock "
+msgstr ""
+
+#: msgstr.str_45page_powerof2
+msgid "Page size is power of 2!"
+msgstr "Установлен размер страницы кратный двум!"
+
+#: msgstr.str_45page_std
+msgid "Default page size is set"
+msgstr "Установлен стандартный размер страницы"
+
+#: msgstr.str_avr_init_error
+msgid "AVR initialisation failed"
+msgstr "Ошибка инициализации AVR"
+
+#: msgstr.str_block_en
+msgid "Possible protection is enabled. Press \"Unprotect\" and check datasheet"
+msgstr "Возможно включена защита на запись. Нажмите кнопку \"Снять защиту\" и сверьтесь с даташитом"
+
+#: msgstr.str_buff_empty
+msgid "No data in buffer"
+msgstr "Нет данных в буфере"
+
+#: msgstr.str_changed
+msgid "Modified"
+msgstr "Изменен"
+
+#: msgstr.str_changed_spi_speed
+msgid "Lower AVR SPI Speed"
+msgstr "Более низкая скорость AVR SPI"
+
+#: msgstr.str_check_settings
+msgid "Check settings"
+msgstr "Проверьте настройки"
+
+#: msgstr.str_choose_avr
+msgid "Choose an AVR Component in list"
+msgstr "выберите AVR в списке"
+
+#: msgstr.str_choose_ic
+msgid "Choose a Component in list"
+msgstr "выберите компонент в списке"
+
+#: msgstr.str_combo_warn
+msgid "IC will be erased and programmed. Continue?"
+msgstr "Чип будет стерт и перезаписан. Продолжить?"
+
+#: msgstr.str_connection_error
+msgid "Connecting Error "
+msgstr "Ошибка подключения к "
+
+#: msgstr.str_curr_hw
+msgid "Current programmer: "
+msgstr "Используется программатор: "
+
+#: msgstr.str_dlg_filechgd
+msgid "file modified"
+msgstr "файл изменён"
+
+#: msgstr.str_dlg_fileext
+msgid "File |*.bin;*.hex|File |*.bin|File |*.hex|Files |*.*"
+msgstr "файл |*.bin;*.hex|файл |*.bin|файл |*.hex|файлы |*.*"
+
+#: msgstr.str_dlg_savefile
+msgid "Save changes?"
+msgstr "Сохранить изменения?"
+
+#: msgstr.str_done
+msgid "Done"
+msgstr "Готово"
+
+#: msgstr.str_erase_notice
+msgid "The process can take more than a minute on large flash memories!"
+msgstr "Процесс может длиться больше минуты на больших флешках!"
+
+#: msgstr.str_erasing_flash
+msgid "Erasing memory..."
+msgstr "Стираю флэшку..."
+
+#: msgstr.str_fail
+msgid "Unsuccess"
+msgstr "неуспех"
+
+#: msgstr.str_goto_addr
+msgctxt "msgstr.str_goto_addr"
+msgid "Goto address"
+msgstr "Перейти по адресу"
+
+#: msgstr.str_chip_no_answer
+msgid "IC not responding"
+msgstr "Микросхема не отвечает"
+
+#: msgstr.str_id_unknown
+msgid "(Unknown ID)"
+msgstr "(Неизвестно)"
+
+#: msgstr.str_mini_eeprom_support
+msgid "This firmware do not support I2C and 93Cxx"
+msgstr "Данная версия прошивки не поддерживает I2C и MW!"
+
+#: msgstr.str_new_sreg
+msgid "New SREG: "
+msgstr "Стало Sreg: "
+
+#: msgstr.str_not_found_hex
+msgid "Value not found"
+msgstr "Значение не найдено"
+
+#: msgstr.str_no_eeprom_support
+msgid "This firmware do not support memory programming"
+msgstr "Данная версия прошивки не поддерживается!"
+
+#: msgstr.str_no_hardw_support
+msgid "This hardware is not supported!"
+msgstr "Это оборудование не поддерживается!"
+
+#: msgstr.str_old_sreg
+msgid "Old SREG: "
+msgstr "Было Sreg: "
+
+#: msgstr.str_reading_flash
+msgid "Reading memory..."
+msgstr "Читаю флэшку..."
+
+#: msgstr.str_script_no_section
+msgid "There is no section: "
+msgstr "Нет секции: "
+
+#: msgstr.str_script_run_section
+msgid "Runs section: "
+msgstr "Выполняется секция: "
+
+#: msgstr.str_script_sel_section
+msgid "Select section"
+msgstr "Выберите секцию"
+
+#: msgstr.str_search_hex
+msgid "Search HEX value"
+msgstr "Поиск HEX значения"
+
+#: msgstr.str_sel_chip
+msgid "Selected CHIP: "
+msgstr "выбранный микросхема: "
+
+#: msgstr.str_set_speed_error
+msgid "Error setting SPI speed"
+msgstr "Ошибка установки скорости SPI"
+
+#: msgstr.str_size
+msgid "Size: "
+msgstr "Размер: "
+
+#: msgstr.str_specify_hex
+msgid "Use HEX numbers"
+msgstr "Укажите шестнадцатеричные числа"
+
+#: msgstr.str_start_erase
+msgid "Erase IC?"
+msgstr "Точно стереть чип?"
+
+#: msgstr.str_start_write
+msgid "Start programming?"
+msgstr "Начать запись?"
+
+#: msgstr.str_time
+msgid "Execution time: "
+msgstr "Время выполнения: "
+
+#: msgstr.str_success
+msgid "Success"
+msgstr "успех"
+
+#: msgstr.str_usb_timeout
+msgid "USB_control_msg timeout!"
+msgstr "USB_control_msg отвалился по таймауту!"
+
+#: msgstr.str_user_cancel
+msgid "Canceled by user"
+msgstr "Прервано пользователем"
+
+#: msgstr.str_using_script
+msgid "Script: "
+msgstr "Используется скрипт: "
+
+#: msgstr.str_verify
+msgid "Verify memory..."
+msgstr "Проверяю флэшку..."
+
+#: msgstr.str_verify_error
+msgid "Verification error on address: "
+msgstr "Ошибка сравнения по адресу: "
+
+#: msgstr.str_writing_flash
+msgid "Записываю флэшку..."
+msgstr "Записываю флэшку..."
+
+#: msgstr.str_writing_flash_wchk
+msgid "Programming memory..."
+msgstr "Записываю флэшку с проверкой..."
+
+#: msgstr.str_wrong_bytes_read
+msgid "Number of bytes readed not equal IC size"
+msgstr "Количество прочитанных байт не равно размеру флэшки"
+
+#: msgstr.str_wrong_bytes_write
+msgid "Number of written bytes not equal IC size"
+msgstr "Количество записанных байт не равно размеру флэшки"
+
+#: msgstr.str_wrong_file_size
+msgid "File size larger than IC size"
+msgstr "Размер файла больше размера чипа"
+
+#: search.sfound
+msgid "Found: "
+msgstr "найденный: "
+
+#: search.sreplaced
+msgid "Replaced: "
+msgstr "Заменены: "
+
+#: tavrfusesform.btcancel.caption
+msgctxt "tavrfusesform.btcancel.caption"
+msgid "Cancel"
+msgstr "отменить"
+
+#: tavrfusesform.btfusecalc.caption
+msgid "Fus Calc"
+msgstr ""
+
+#: tavrfusesform.btloaddeffuses.caption
+msgid "Load Default"
+msgstr "умолчанию"
+
+#: tavrfusesform.btreadfuses.caption
+msgid "Read"
+msgstr "Читать"
+
+#: tavrfusesform.btwritefuses.caption
+msgid "Write"
+msgstr "Записать"
+
+#: tavrfusesform.fuseextgroup.caption
+msgid "Extended Fuse Byte"
+msgstr ""
+
+#: tavrfusesform.fusehighgroup.caption
+msgid "Fuse High Byte"
+msgstr ""
+
+#: tavrfusesform.fuselockgroup.caption
+msgid "Lock Bit Byte"
+msgstr ""
+
+#: tavrfusesform.fuselockgroup.hint
+msgctxt "tavrfusesform.fuselockgroup.hint"
+msgid "Read Only"
+msgstr "Режим только для чтения"
+
+#: tavrfusesform.fuselowgroup.caption
+msgid "Fuse Low Byte"
+msgstr ""
+
+#: tavrfusesform.lockencheckbox.caption
+msgid "Locked"
+msgstr ""
+
+#: tfillbuffform.bt16bits.caption
+msgid "Value (16Bits):"
+msgstr "значени (16Bits):"
+
+#: tfillbuffform.bt8bits.caption
+msgid "Value (8Bits):"
+msgstr "значени (8Bits):"
+
+#: tfillbuffform.btcancel.caption
+msgid "Cancel"
+msgstr "отменить"
+
+#: tfillbuffform.btfillbuff.caption
+msgid "OK"
+msgstr ""
+
+#: tfillbuffform.btincr.caption
+msgid "Incremental values (00..FF)"
+msgstr "Добавочные значения (00..FF)"
+
+#: tfillbuffform.btrandom.caption
+msgid "Random values"
+msgstr "Случайные значения"
+
+#: tfillbuffform.caption
+msgid "Fill Buffer"
+msgstr "Заполнить буфер"
+
+#: tfillbuffform.groupbox1.caption
+msgid "HEX Values"
+msgstr ""
+
+#: tfillbuffform.groupbox2.caption
+msgid "Limits"
+msgstr ""
+
+#: tfillbuffform.label2.caption
+msgid "Start Address:"
+msgstr "Начальный адрес:"
+
+#: tfillbuffform.label3.caption
+msgid "End Address:"
+msgstr "Конечный адрес:"
+
+#: tmainform.appbutton.hint
+msgid "Access Protection Page (APP)"
+msgstr ""
+
+#: tmainform.autoblankcheck.caption
+msgid "Blank Check"
+msgstr "Проверка на чистоту"
+
+#: tmainform.autocheck.caption
+msgid "Verify"
+msgstr "Сравнить содержимое"
+
+#: tmainform.autoclear.caption
+msgid "Erase"
+msgstr "Стереть"
+
+#: tmainform.autowrite.caption
+msgctxt "tmainform.autowrite.caption"
+msgid "Write"
+msgstr "Записать"
+
+#: tmainform.avreepromtbutton.caption
+msgctxt "tmainform.avreepromtbutton.caption"
+msgid "EEPROM"
+msgstr ""
+
+#: tmainform.avrfusesbutton.caption
+msgctxt "tmainform.avrfusesbutton.caption"
+msgid "Fuses"
+msgstr ""
+
+#: tmainform.blankcheckmenuitem.caption
+msgid "BlankCheck"
+msgstr "Проверка на чистоту"
+
+#: tmainform.buffermenuitem.caption
+msgid "Buffer"
+msgstr "буфер"
+
+#: tmainform.buttonblock.hint
+msgid "Unprotect"
+msgstr "Снять защиту"
+
+#: tmainform.buttoncancel.hint
+msgid "Cancel"
+msgstr "Прервать текущею операцию"
+
+#: tmainform.buttonerase.hint
+msgid "Erase IC"
+msgstr "Стереть"
+
+#: tmainform.buttonopenfile.hint
+msgid "Open File"
+msgstr "Открыть файл"
+
+#: tmainform.buttonread.hint
+msgctxt "tmainform.buttonread.hint"
+msgid "Read IC"
+msgstr "Читать чип"
+
+#: tmainform.buttonreadid.hint
+msgid "Detect IC"
+msgstr "Определить чип"
+
+#: tmainform.buttonsavefile.hint
+msgctxt "tmainform.buttonsavefile.hint"
+msgid "Save File"
+msgstr "Сохранить файл"
+
+#: tmainform.buttonverify.hint
+msgid "Verify IC"
+msgstr "Сравнить содержимое"
+
+#: tmainform.buttonwrite.hint
+msgctxt "tmainform.buttonwrite.hint"
+msgid "Write IC"
+msgstr "Записать"
+
+#: tmainform.checkbox_i2c_a2.hint
+msgctxt "tmainform.checkbox_i2c_a2.hint"
+msgid "Set device address"
+msgstr "Установить адрес устройства"
+
+#: tmainform.checkbox_i2c_byteread.caption
+msgid "R/W Byte by Byte"
+msgstr "Побайтовое чтение"
+
+#: tmainform.checkbox_i2c_byteread.hint
+msgid "Read & Write, Byte by Byte"
+msgstr "Читать байт за байтом"
+
+#: tmainform.clearlogmenuitem.caption
+msgid "Clear"
+msgstr "Очистить"
+
+#: tmainform.comboaddrtype.hint
+msgid "Type of addressing"
+msgstr "Тип адресации к памяти"
+
+#: tmainform.comboboxavrspeed.hint
+msgid "AVR SPI frequency"
+msgstr "SPI AVR частота"
+
+#: tmainform.combochipsize.hint
+msgid "IC size in bytes"
+msgstr "Размер чипа в байтах"
+
+#: tmainform.combomwbitlen.hint
+msgid "Address Lenght in bits"
+msgstr "Длинна адреса в битах"
+
+#: tmainform.combopagesize.hint
+msgid "Write Page size"
+msgstr "Размер страницы в письменном виде"
+
+#: tmainform.copylogmenuitem.caption
+msgctxt "tmainform.copylogmenuitem.caption"
+msgid "Copy"
+msgstr "Копировать"
+
+#: tmainform.i2cavancedbutton.caption
+msgid "i2cAvanced"
+msgstr ""
+
+#: tmainform.labelpage.caption
+msgid "Page"
+msgstr "Страница"
+
+#: tmainform.labelsize.caption
+msgid "Size"
+msgstr "Размер"
+
+#: tmainform.labeltypead.caption
+msgid "Address type"
+msgstr "Тип адреса"
+
+#: tmainform.i2cadvancedbutton.hint
+msgid "I2C advanced settings access"
+msgstr "Доступ к расширенным настройкам I2C"
+
+#: tmainform.labeladlength.caption
+msgid "Address lenght"
+msgstr "Длина адреса"
+
+#: tmainform.labelspicmd.caption
+msgid "SPI Family"
+msgstr "Команды SPI"
+
+#: tmainform.label_i2c_devaddr.caption
+msgid "Device address"
+msgstr "Адрес устройства"
+
+#: tmainform.menuarduinospiclock.caption
+msgid "Clock"
+msgstr "Частота"
+
+#: tmainform.menuavrispspiclock.caption
+msgid "Clock"
+msgstr "Частота"
+
+#: tmainform.menuchip.caption
+msgid "IC"
+msgstr "Микросхема"
+
+#: tmainform.menuclearbuff.caption
+msgid "Clear the Buffer"
+msgstr "Очистить буфер"
+
+#: tmainform.menucopytoclip.caption
+msgctxt "tmainform.menucopytoclip.caption"
+msgid "Copy"
+msgstr "Копировать"
+
+#: tmainform.menufile.caption
+msgid "File"
+msgstr "файл"
+
+#: tmainform.menufileopen.caption
+msgid "Open"
+msgstr "Открыть"
+
+#: tmainform.menufilesave.caption
+msgid "Save"
+msgstr "Сохранить"
+
+#: tmainform.menufillbuffer.caption
+msgid "Fill the Buffer""
+msgstr "Заполните буфер"
+
+#: tmainform.menufindchip.caption
+msgctxt "tmainform.menufindchip.caption"
+msgid "Search"
+msgstr "Поиск"
+
+#: tmainform.menufindreplace.caption
+msgid "Search/Replace"
+msgstr "Поиск"
+
+#: tmainform.menugotooffset.caption
+msgctxt "tmainform.menugotooffset.caption"
+msgid "Goto address"
+msgstr "Перейти по адресу"
+
+#: tmainform.menuignorebusybit.caption
+msgid "Dont verify Busy bit"
+msgstr "Не проверять Busy бит"
+
+#: tmainform.menuitembenchmark.caption
+msgid "Benchmark"
+msgstr ""
+
+#: tmainform.menuitemeditsreg.caption
+msgid "Edit SREG"
+msgstr "Изменить SREG"
+
+#: tmainform.menuitemhardware.caption
+msgid "Hardware"
+msgstr "Программатор"
+
+#: tmainform.menuitemreadsreg.caption
+msgid "Read SREG"
+msgstr "Прочитать SREG"
+
+#: tmainform.menuloaddev.caption
+msgid "Load last device when starts"
+msgstr "Используйте последний чип при запуске"
+
+
+#: tmainform.menumicrowire.caption
+msgid "Microwire (soft)"
+msgstr ""
+
+#: tmainform.menumwclock.caption
+msgctxt "tmainform.menumwclock.caption"
+msgid "Clock"
+msgstr "Частота"
+
+#: tmainform.menuoptions.caption
+msgid "Options"
+msgstr "Настройки"
+
+#: tmainform.menupastefromclip.caption
+msgid "Paste"
+msgstr "вставить"
+
+#: tmainform.menuskipff.caption
+msgid "Skip FF"
+msgstr "Не писать FF"
+
+#: tmainform.menuspiclock.caption
+msgctxt "tmainform.menuspiclock.caption"
+msgid "Clock"
+msgstr "Частота"
+
+#: tmainform.mwswapbutton.caption
+msgid "Swap <-->"
+msgstr ""
+
+#: tmainform.mwswapbutton.hint
+msgid "Swap High and Low Bytes"
+msgstr "Поменять местами байты High и Low"
+
+#: tmainform.scriptsmenuitem.caption
+msgid "Скрипты"
+msgstr "Скрипты"
+
+#: tmainform.swapbytes.caption
+msgid "Swap High and Low Bytes"
+msgstr "Поменять местами байты в буфере"
+
+#: tmainform.unprotbutton.caption
+msgid "UnProt"
+msgstr ""
+
+#: tmainform.unprotbutton.hint
+msgid "Removes protections in APP"
+msgstr "Снять защиту"
+
+#: tsearchform.caption
+msgctxt "tsearchform.caption"
+msgid "Search"
+msgstr "Поиск"
+
+#: tsearchform.casesensecheckbox.caption
+msgid "case sensitive"
+msgstr "Учитывать регистр"
+
+#: tsearchform.findbutton.caption
+msgid "Search"
+msgstr "Найти"
+
+#: tsearchform.hexcheckbox.caption
+msgid "Search HEX"
+msgstr "Искать HEX значение"
+
+#: tsearchform.rcancelbutton.caption
+msgctxt "tsearchform.rcancelbutton.caption"
+msgid "Cancel"
+msgstr "Прервать"
+
+#: tsearchform.replaceallbutton.caption
+msgid "Repl. All"
+msgstr "Отв. все"
+
+#: tsearchform.replacebutton.caption
+msgctxt "tsearchform.replacebutton.caption"
+msgid "Replace"
+msgstr "Заменить"
+
+#: tsearchform.replacecheckbox.caption
+msgid "Replace:"
+msgstr "Заменить:"
+
+#: tsearchform.searchlabel.caption
+msgid "Search:"
+msgstr "Искать:"
+
+#: tsregeditform.buttonreadsreg.caption
+msgctxt "tsregeditform.buttonreadsreg.caption"
+msgid "Read"
+msgstr "Прочитать"
+
+#: tsregeditform.buttonwritesreg.caption
+msgctxt "tsregeditform.buttonwritesreg.caption"
+msgid "Write"
+msgstr "Записать"
+
+#: tchipsearchform.caption
+msgid "Search IC"
+msgstr "Поиск микросхемы"
+
+#: tchipsearchform.label1.caption
+msgid "Content:"
+msgstr "Маркировка содержит:"
+
+#: tchipsearchform.ChipSearchSelectButton.caption
+msgid "Select IC"
+msgstr "Выбрать микросхему"
+
+#: msgstr.str_dlg_filechgd
+msgid "File modified"
+msgstr "файл изменён"
+
+#: tscripteditform.menuitemfile.caption
+msgid "File"
+msgstr "Файл"
+
+#: tscripteditform.menuitemopen.caption
+msgid "Open"
+msgstr "Открыть"
+
+#: tscripteditform.menuitemrun.caption
+msgid "Execute"
+msgstr "Выполнить"
+
+#: tscripteditform.menuitemsave.caption
+msgid "Save"
+msgstr "Сохранить"
+
+#: tscripteditform.menuitemsaveas.caption
+msgid "Save as..."
+msgstr "Сохранить как..."
+
+#: tscripteditform.menuitemsection.caption
+msgid "Section ="
+msgstr "Секция ="

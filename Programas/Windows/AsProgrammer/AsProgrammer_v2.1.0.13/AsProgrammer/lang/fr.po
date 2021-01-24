@@ -1,0 +1,681 @@
+#French
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: avrfuses.fus_str_msg
+msgid "AVR Fuses and Bit Lock "
+msgstr ""
+
+#: msgstr.str_45page_powerof2
+msgid "Page size is power of 2!"
+msgstr "La taille de la page est définie sur un multiple de deux!"
+
+#: msgstr.str_45page_std
+msgid "Page size is power of 2!"
+msgstr "La taille de page par défaut est définie."
+
+#: msgstr.str_avr_init_error
+msgid "AVR initialisation failed"
+msgstr "Echec initialisation AVR"
+
+#: msgstr.str_block_en
+msgid "Possible protection is enabled. Press \"Unprotect\" and check datasheet"
+msgstr "Peut-être protection en écriture. Cliquez sur "Supprimer la protection" et vérifiez la fiche technique."
+
+#: msgstr.str_buff_empty
+msgid "No data in buffer"
+msgstr "Buffer vide"
+
+#: msgstr.str_changed
+msgid "Modified"
+msgstr "Changé(s)"
+
+#: msgstr.str_changed_spi_speed
+msgid "Lower AVR SPI Speed"
+msgstr "Abaissement fréquence SPI AVR"
+
+#: msgstr.str_check_settings
+msgid "Check settings"
+msgstr "Vérifier les paramètres"
+
+#: msgstr.str_choose_avr
+msgid "Choose an AVR Component in list"
+msgstr "Choisissez un AVR"
+
+#: msgstr.str_choose_ic
+msgid "Choose a Component in list"
+msgstr "Choisissez un composant"
+
+#: msgstr.str_combo_warn
+msgid "IC will be erased and programmed. Continue?"
+msgstr "La puce sera effacée et écrasée. Continuer?"
+
+#: msgstr.str_connection_error
+msgid "Connecting Error "
+msgstr "Erreur de connexion "
+
+#: msgstr.str_curr_hw
+msgid "Current programmer: "
+msgstr "Programmeur actuel: "
+
+#: msgstr.str_dlg_filechgd
+msgid "file modified"
+msgstr "Fichier modifié"
+
+#: msgstr.str_dlg_fileext
+msgid "File |*.bin;*.hex|File |*.bin|File |*.hex|Files |*.*"
+msgstr "Fichier |*.bin;*.hex|Fichier |*.bin|Fichier |*.hex|Fichiers |*.*"
+
+#: msgstr.str_dlg_savefile
+msgid "Save changes?"
+msgstr "Sauvegarder les changements?""
+
+#: msgstr.str_done
+msgid "Done"
+msgstr "Fait"
+
+#: msgstr.str_erase_notice
+msgid "The process can take more than a minute on large flash memories!"
+msgstr "Le processus peut prendre plus d’une minute sur de grandes mémoires flash!"
+
+#: msgstr.str_erasing_flash
+msgid "Erasing memory..."
+msgstr "Effacement..."
+
+#: msgstr.str_fail
+msgid "Unsuccess"
+msgstr "Echec"
+
+#: msgstr.str_goto_addr
+msgctxt "msgstr.str_goto_addr"
+msgid "Goto address"
+msgstr "Aller à l'addresse"
+
+#: msgstr.str_chip_no_answer
+msgid "IC not responding"
+msgstr "La puce ne répond pas"
+
+#: msgstr.str_id_unknown
+msgid "(Unknown ID)"
+msgstr "(ID Iconnu)"
+
+#: msgstr.str_mini_eeprom_support
+msgid "This firmware do not support I2C and 93Cxx"
+msgstr "Ce firmware ne supporte pas I2C et 93Cxx!"
+
+#: msgstr.str_new_sreg
+msgid "New SREG: "
+msgstr "Nouveau SREG: "
+
+#: msgstr.str_not_found_hex
+msgid "Value not found"
+msgstr "Valeur non trouvée"
+
+#: msgstr.str_no_eeprom_support
+msgid "This firmware do not support memory programming"
+msgstr "Ce firmware n'est pas supporté!"
+
+#: msgstr.str_no_hardw_support
+msgid "This hardware is not supported!"
+msgstr "Ce matériel n'est pas supporté!"
+
+#: msgstr.str_old_sreg
+msgid "Old SREG: "
+msgstr "Ancien SREG: "
+
+#: msgstr.str_reading_flash
+msgid "Reading memory..."
+msgstr "Lecture memoire..."
+
+#: msgstr.str_script_no_section
+msgid "There is no section: "
+msgstr "Il n'y a pas de section: "
+
+#: msgstr.str_script_run_section
+msgid "Runs section: "
+msgstr "Section en cours: "
+
+#: msgstr.str_script_sel_section
+msgid "Select section"
+msgstr "Choisissez une section"
+
+#: msgstr.str_search_hex
+msgid "Search HEX value"
+msgstr "Recherche valeur HEX"
+
+#: msgstr.str_sel_chip
+msgid "Selected CHIP: "
+msgstr "CHIP sélectionné: "
+
+#: msgstr.str_set_speed_error
+msgid "Error setting SPI speed"
+msgstr "Erreur de réglage de la vitesse SPI"
+
+#: msgstr.str_size
+msgid "Size: "
+msgstr "Taille: "
+
+#: msgstr.str_specify_hex
+msgid "Use HEX numbers"
+msgstr "Spécifiez les nombres hexadécimaux"
+
+#: msgstr.str_start_erase
+msgid "Erase IC?"
+msgstr "Effacement IC?"
+
+#: msgstr.str_start_write
+msgid "Start programming?"
+msgstr "Commencer la programmation?"
+
+#: msgstr.str_time
+msgid "Execution time: "
+msgstr "Délai d'exécution: "
+
+#: msgstr.str_success
+msgid "Success"
+msgstr "Succès"
+
+#: msgstr.str_usb_timeout
+msgid "USB_control_msg timeout!"
+msgstr "USB_control_msg est tombé en fin de timeout!"
+
+#: msgstr.str_user_cancel
+msgid "Canceled by user"
+msgstr "Interrompu par l'utilisateur"
+
+#: msgstr.str_using_script
+msgid "Canceled by user"
+msgstr "Script utilisé: "
+
+#: msgstr.str_verify
+msgid "Verify memory..."
+msgstr "Verification memoire..."
+
+#: msgstr.str_verify_error
+msgid "Verification error on address: "
+msgstr "Erreur de comparaison à: "
+
+#: msgstr.str_writing_flash
+msgid "Programming memory..."
+msgstr "Ecriture memoire..."
+
+#: msgstr.str_writing_flash_wchk
+msgid "Programming memory(verifying)..."
+msgstr "Ecriture memoire(verification)..."
+
+#: msgstr.str_wrong_bytes_read
+msgid "Number of bytes readed not equal IC size"
+msgstr "Le nombre d'octets lus n'est pas égal à la taille de la puce"
+
+#: msgstr.str_wrong_bytes_write
+msgid "Number of written bytes not equal IC size"
+msgstr "Le nombre d'octets écrits n'est pas égal à la taille de la puce"
+
+#: msgstr.str_wrong_file_size
+msgid "File size larger than IC size"
+msgstr "Taille de fichier supérieure à la taille de la puce"
+
+#: search.sfound
+msgid "Found: "
+msgstr "Trouvé: "
+
+#: search.sreplaced
+msgid "Replaced: "
+msgstr "Remplacé"
+
+#: tavrfusesform.btcancel.caption
+msgctxt "tavrfusesform.btcancel.caption"
+msgid "Cancel"
+msgstr "Abandon"
+
+#: tavrfusesform.btfusecalc.caption
+msgid "Fus Calc"
+msgstr ""
+
+#: tavrfusesform.btloaddeffuses.caption
+msgid "Load Default"
+msgstr ""
+
+#: tavrfusesform.btreadfuses.caption
+msgid "Read"
+msgstr "Lecture"
+
+#: tavrfusesform.btwritefuses.caption
+msgid "Write"
+msgstr "Ecriture"
+
+#: tavrfusesform.fuseextgroup.caption
+msgid "Extended Fuse Byte"
+msgstr ""
+
+#: tavrfusesform.fusehighgroup.caption
+msgid "Fuse High Byte"
+msgstr ""
+
+#: tavrfusesform.fuselockgroup.caption
+msgid "Lock Bit Byte"
+msgstr ""
+
+#: tavrfusesform.fuselockgroup.hint
+msgctxt "tavrfusesform.fuselockgroup.hint"
+msgid "Read Only"
+msgstr "Lecture seule"
+
+#: tavrfusesform.fuselowgroup.caption
+msgid "Fuse Low Byte"
+msgstr ""
+
+#: tavrfusesform.lockencheckbox.caption
+msgid "Locked"
+msgstr ""
+
+#: tfillbuffform.bt16bits.caption
+msgid "Value (16Bits):"
+msgstr "Valeur (16Bits):"
+
+#: tfillbuffform.bt8bits.caption
+msgid "Value (8Bits):"
+msgstr "Valeur (8Bits):"
+
+#: tfillbuffform.btcancel.caption
+msgid "Cancel"
+msgstr "Abandon"
+
+#: tfillbuffform.btfillbuff.caption
+msgid "OK"
+msgstr ""
+
+#: tfillbuffform.btincr.caption
+msgid "Incremental values (00..FF)"
+msgstr "Valeurs incrémentales (00..FF)"
+
+#: tfillbuffform.btrandom.caption
+msgid "Random values"
+msgstr "Valeurs aléatoires"
+
+#: tfillbuffform.caption
+msgid "Fill Buffer"
+msgstr "Emplir le Buffer"
+
+#: tfillbuffform.groupbox1.caption
+msgid "HEX Values"
+msgstr ""
+
+#: tfillbuffform.groupbox2.caption
+msgid "Limits"
+msgstr ""
+
+#: tfillbuffform.label2.caption
+msgid "Start Address:"
+msgstr "Addresse debut:"
+
+#: tfillbuffform.label3.caption
+msgid "End Address:"
+msgstr "Addresse Fin:"
+
+#: tmainform.appbutton.hint
+msgid "Access Protection Page (APP)"
+msgstr ""
+
+#: tmainform.autoblankcheck.caption
+msgid "Blank Check"
+msgstr "Test effacement"
+
+#: tmainform.autocheck.caption
+msgid "Verify"
+msgstr "Verifier"
+
+#: tmainform.autoclear.caption
+msgid "Erase"
+msgstr "Effacement"
+
+#: tmainform.autowrite.caption
+msgctxt "tmainform.autowrite.caption"
+msgid "Write"
+msgstr "Ecrire"
+
+#: tmainform.avreepromtbutton.caption
+msgctxt "tmainform.avreepromtbutton.caption"
+msgid "EEPROM"
+msgstr ""
+
+#: tmainform.avrfusesbutton.caption
+msgctxt "tmainform.avrfusesbutton.caption"
+msgid "Fuses"
+msgstr ""
+
+#: tmainform.blankcheckmenuitem.caption
+msgid "BlankCheck"
+msgstr "Vérification effacement"
+
+#: tmainform.buffermenuitem.caption
+msgid "Buffer"
+msgstr ""
+
+#: tmainform.buttonblock.hint
+msgid "Unprotect"
+msgstr "Supprimer la protection"
+
+#: tmainform.buttoncancel.hint
+msgid "Cancel"
+msgstr "Abandonner"
+
+#: tmainform.buttonerase.hint
+msgid "Erase IC"
+msgstr "Effacement IC"
+
+#: tmainform.buttonopenfile.hint
+msgid "Open File"
+msgstr "Ouvrir"
+
+#: tmainform.buttonread.hint
+msgctxt "tmainform.buttonread.hint"
+msgid "Read IC"
+msgstr "Lecture IC"
+
+#: tmainform.buttonreadid.hint
+msgid "Detect IC"
+msgstr "Detecter Chip"
+
+#: tmainform.buttonsavefile.hint
+msgctxt "tmainform.buttonsavefile.hint"
+msgid "Save File"
+msgstr "Sauver"
+
+#: tmainform.buttonverify.hint
+msgid "Verify IC"
+msgstr "Verification IC"
+
+#: tmainform.buttonwrite.hint
+msgctxt "tmainform.buttonwrite.hint"
+msgid "Write IC"
+msgstr "Programmer IC"
+
+#: tmainform.checkbox_i2c_a2.hint
+msgctxt "tmainform.checkbox_i2c_a2.hint"
+msgid "Set device address"
+msgstr ""
+
+#: tmainform.checkbox_i2c_byteread.caption
+msgid "R/W Byte by Byte"
+msgstr "Lect. Ecr. par octet"
+
+#: tmainform.checkbox_i2c_byteread.hint
+msgid "Read & Write, Byte by Byte"
+msgstr "Lecture/écriture octet par octet"
+
+#: tmainform.clearlogmenuitem.caption
+msgid "Clear"
+msgstr "Effacer"
+
+#: tmainform.comboaddrtype.hint
+msgid "Type of addressing"
+msgstr "Type d'adressage mémoire"
+
+#: tmainform.comboboxavrspeed.hint
+msgid "AVR SPI frequency"
+msgstr "Fréquence SPI AVR"
+
+#: tmainform.combochipsize.hint
+msgid "IC size in bytes"
+msgstr "Taille IC en bytes"
+
+#: tmainform.combomwbitlen.hint
+msgid "Address Lenght in bits"
+msgstr "Longueur d'adresse en bits"
+
+#: tmainform.combopagesize.hint
+msgid "Write Page size"
+msgstr "Taille de la page en écriture"
+
+#: tmainform.copylogmenuitem.caption
+msgctxt "tmainform.copylogmenuitem.caption"
+msgid "Copy"
+msgstr "Copier"
+
+#: tmainform.i2cavancedbutton.caption
+msgid "i2cAvanced"
+msgstr ""
+
+#: tmainform.labelpage.caption
+msgid "Page"
+msgstr "Page"
+
+#: tmainform.labelsize.caption
+msgid "Size"
+msgstr "Taille"
+
+#: tmainform.labeltypead.caption
+msgid "Address type"
+msgstr "Type d'adresse"
+
+#: tmainform.i2cadvancedbutton.hint
+msgid "I2C advanced settings access"
+msgstr "Accès aux paramètres avancés I2C"
+
+#: tmainform.labeladlength.caption
+msgid "Address lenght"
+msgstr "Longueur adresse"
+
+#: tmainform.labelspicmd.caption
+msgid "SPI Family"
+msgstr "SPI famille"
+
+#: tmainform.label_i2c_devaddr.caption
+msgid "Device address"
+msgstr "Device Address"
+
+#: tmainform.menuarduinospiclock.caption
+msgid "Clock"
+msgstr "Fréquence"
+
+#: tmainform.menuavrispspiclock.caption
+msgid "Clock"
+msgstr "Fréquence"
+
+#: tmainform.menuchip.caption
+msgid "IC"
+msgstr "IC"
+
+#: tmainform.menuclearbuff.caption
+msgid "Clear the Buffer"
+msgstr "RaZ Buffer"
+
+#: tmainform.menucopytoclip.caption
+msgctxt "tmainform.menucopytoclip.caption"
+msgid "Copy"
+msgstr "Copier"
+
+#: tmainform.menufile.caption
+msgid "File"
+msgstr "Fichier"
+
+#: tmainform.menufileopen.caption
+msgid "Open"
+msgstr "Ouvrir"
+
+#: tmainform.menufilesave.caption
+msgid "Save"
+msgstr "Sauver"
+
+#: tmainform.menufillbuffer.caption
+msgid "Fill the Buffer"
+msgstr "Emplir le Buffer"
+
+#: tmainform.menufindchip.caption
+msgctxt "tmainform.menufindchip.caption"
+msgid "Search"
+msgstr "Recherche"
+
+#: tmainform.menufindreplace.caption
+msgid "Search/Replace"
+msgstr "Trouver/Rempl."
+
+#: tmainform.menugotooffset.caption
+msgctxt "tmainform.menugotooffset.caption"
+msgid "Goto address"
+msgstr "Aller à l'adresse"
+
+#: tmainform.menuignorebusybit.caption
+msgid "Dont verify Busy bit"
+msgstr "Ne pas vérifier le Busy bit"
+
+#: tmainform.menuitembenchmark.caption
+msgid "Benchmark"
+msgstr ""
+
+#: tmainform.menuitemeditsreg.caption
+msgid "Edit SREG"
+msgstr "Edition SREG"
+
+#: tmainform.menuitemhardware.caption
+msgid "Hardware"
+msgstr "Matériel"
+
+#: tmainform.menuitemreadsreg.caption
+msgid "Read SREG"
+msgstr "Lecture SREG"
+
+#: tmainform.menuloaddev.caption
+msgid "Load last device when starts"
+msgstr "Utiliser le dernier composant au démarrage"
+
+#: tmainform.menumicrowire.caption
+msgid "Microwire (soft)"
+msgstr ""
+
+#: tmainform.menumwclock.caption
+msgctxt "tmainform.menumwclock.caption"
+msgid "Clock"
+msgstr "Frequence"
+
+#: tmainform.menuoptions.caption
+msgid "Options"
+msgstr "Options"
+
+#: tmainform.menupastefromclip.caption
+msgid "Paste"
+msgstr "Coller"
+
+#: tmainform.menuskipff.caption
+msgid "Skip FF"
+msgstr "Ne pas écrire les FF"
+
+#: tmainform.menuspiclock.caption
+msgctxt "tmainform.menuspiclock.caption"
+msgid "Clock"
+msgstr "Fréqence"
+
+#: tmainform.mwswapbutton.caption
+msgid "Swap <-->"
+msgstr ""
+
+#: tmainform.mwswapbutton.hint
+msgid "Swap High and Low Bytes"
+msgstr "Permuter les bytes H et L"
+
+#: tmainform.scriptsmenuitem.caption
+msgid "Скрипты"
+msgstr "Scripts"
+
+#: tmainform.swapbytes.caption
+msgid "Swap High and Low Bytes"
+msgstr "Permuter les bytes H et L"
+
+#: tmainform.unprotbutton.caption
+msgid "UnProt"
+msgstr ""
+
+#: tmainform.unprotbutton.hint
+msgid "Removes protections in APP"
+msgstr "Raz protections APP"
+
+#: tsearchform.caption
+msgctxt "tsearchform.caption"
+msgid "Search"
+msgstr "Recherche"
+
+#: tsearchform.casesensecheckbox.caption
+msgid "case sensitive"
+msgstr "Sensible à la case"
+
+#: tsearchform.findbutton.caption
+msgid "Search"
+msgstr "Trouver"
+
+#: tsearchform.hexcheckbox.caption
+msgid "Search HEX"
+msgstr "Recherche HEX"
+
+#: tsearchform.rcancelbutton.caption
+msgctxt "tsearchform.rcancelbutton.caption"
+msgid "Cancel"
+msgstr "Abandon"
+
+#: tsearchform.replaceallbutton.caption
+msgid "Repl. All"
+msgstr "Rempl. Tout"
+
+#: tsearchform.replacebutton.caption
+msgctxt "tsearchform.replacebutton.caption"
+msgid "Replace"
+msgstr "Remplacer"
+
+#: tsearchform.replacecheckbox.caption
+msgctxt "tsearchform.replacecheckbox.caption"
+msgid "Replace"
+msgstr "Remplacer"
+
+#: tsearchform.searchlabel.caption
+msgid "Search:"
+msgstr "Rechercher:"
+
+#: tsregeditform.buttonreadsreg.caption
+msgctxt "tsregeditform.buttonreadsreg.caption"
+msgid "Read"
+msgstr "Lire"
+
+#: tsregeditform.buttonwritesreg.caption
+msgctxt "tsregeditform.buttonwritesreg.caption"
+msgid "Write"
+msgstr "Ecrire"
+
+#: tchipsearchform.caption
+msgid "Search IC"
+msgstr "Recherche IC"
+
+#: tchipsearchform.label1.caption
+msgid "Content:"
+msgstr "Le marquage contient:"
+
+#: tchipsearchform.ChipSearchSelectButton.caption
+msgid "Select IC"
+msgstr "Selectionner IC"
+
+#: msgstr.str_dlg_filechgd
+msgid "File"
+msgstr "Fichier modifié"
+
+#: tscripteditform.menuitemfile.caption
+msgid "File"
+msgstr "Fichier"
+
+#: tscripteditform.menuitemopen.caption
+msgid "Open"
+msgstr "Ouvrir"
+
+#: tscripteditform.menuitemrun.caption
+msgid "Execute"
+msgstr "Executer"
+
+#: tscripteditform.menuitemsave.caption
+msgid "Save"
+msgstr "Enregistrer"
+
+#: tscripteditform.menuitemsaveas.caption
+msgid "Save as..."
+msgstr "Enregistrer sous..."
+
+#: tscripteditform.menuitemsection.caption
+msgid "Section ="
+msgstr "Section ="

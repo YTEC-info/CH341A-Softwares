@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0A2BA821790A5BB0010957D /* ch341eeprom.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A2BA7E1790A5BB0010957D /* ch341eeprom.c */; };
+		F0A2BA831790A5BB0010957D /* ch341funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A2BA801790A5BB0010957D /* ch341funcs.c */; };
+		F0E5C64917933B8000D43390 /* mktestimg.c in Sources */ = {isa = PBXBuildFile; fileRef = F0A2BA811790A5BB0010957D /* mktestimg.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F08B11E11790A58000B4E402 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F0A2BA871790A60E0010957D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F08B11E31790A58000B4E402 /* ch341eeprom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch341eeprom; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A2BA7E1790A5BB0010957D /* ch341eeprom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ch341eeprom.c; sourceTree = SOURCE_ROOT; };
+		F0A2BA7F1790A5BB0010957D /* ch341eeprom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ch341eeprom.h; sourceTree = SOURCE_ROOT; };
+		F0A2BA801790A5BB0010957D /* ch341funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ch341funcs.c; sourceTree = SOURCE_ROOT; };
+		F0A2BA811790A5BB0010957D /* mktestimg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mktestimg.c; sourceTree = SOURCE_ROOT; };
+		F0A2BA891790A60E0010957D /* mktestimg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mktestimg; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08B11E01790A58000B4E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2BA861790A60E0010957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08B11DA1790A58000B4E402 = {
+			isa = PBXGroup;
+			children = (
+				F08B11E51790A58000B4E402 /* ch341eeprom */,
+				F0A2BA8A1790A60E0010957D /* mktestimg */,
+				F08B11E41790A58000B4E402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08B11E41790A58000B4E402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08B11E31790A58000B4E402 /* ch341eeprom */,
+				F0A2BA891790A60E0010957D /* mktestimg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08B11E51790A58000B4E402 /* ch341eeprom */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2BA7E1790A5BB0010957D /* ch341eeprom.c */,
+				F0A2BA7F1790A5BB0010957D /* ch341eeprom.h */,
+				F0A2BA801790A5BB0010957D /* ch341funcs.c */,
+			);
+			path = ch341eeprom;
+			sourceTree = "<group>";
+		};
+		F0A2BA8A1790A60E0010957D /* mktestimg */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2BA811790A5BB0010957D /* mktestimg.c */,
+			);
+			path = mktestimg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08B11E21790A58000B4E402 /* ch341eeprom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08B11EC1790A58000B4E402 /* Build configuration list for PBXNativeTarget "ch341eeprom" */;
+			buildPhases = (
+				F08B11DF1790A58000B4E402 /* Sources */,
+				F08B11E01790A58000B4E402 /* Frameworks */,
+				F08B11E11790A58000B4E402 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch341eeprom;
+			productName = ch341eeprom;
+			productReference = F08B11E31790A58000B4E402 /* ch341eeprom */;
+			productType = "com.apple.product-type.tool";
+		};
+		F0A2BA881790A60E0010957D /* mktestimg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A2BA8B1790A60E0010957D /* Build configuration list for PBXNativeTarget "mktestimg" */;
+			buildPhases = (
+				F0A2BA851790A60E0010957D /* Sources */,
+				F0A2BA861790A60E0010957D /* Frameworks */,
+				F0A2BA871790A60E0010957D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mktestimg;
+			productName = mktestimg;
+			productReference = F0A2BA891790A60E0010957D /* mktestimg */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08B11DB1790A58000B4E402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = F08B11DE1790A58000B4E402 /* Build configuration list for PBXProject "ch341eeprom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F08B11DA1790A58000B4E402;
+			productRefGroup = F08B11E41790A58000B4E402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08B11E21790A58000B4E402 /* ch341eeprom */,
+				F0A2BA881790A60E0010957D /* mktestimg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08B11DF1790A58000B4E402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2BA821790A5BB0010957D /* ch341eeprom.c in Sources */,
+				F0A2BA831790A5BB0010957D /* ch341funcs.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2BA851790A60E0010957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E5C64917933B8000D43390 /* mktestimg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F08B11EA1790A58000B4E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F08B11EB1790A58000B4E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F08B11ED1790A58000B4E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/usr/local/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				OTHER_LDFLAGS = "-lusb-1.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F08B11EE1790A58000B4E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/usr/local/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				OTHER_LDFLAGS = "-lusb-1.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0A2BA8C1790A60E0010957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0A2BA8D1790A60E0010957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08B11DE1790A58000B4E402 /* Build configuration list for PBXProject "ch341eeprom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08B11EA1790A58000B4E402 /* Debug */,
+				F08B11EB1790A58000B4E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08B11EC1790A58000B4E402 /* Build configuration list for PBXNativeTarget "ch341eeprom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08B11ED1790A58000B4E402 /* Debug */,
+				F08B11EE1790A58000B4E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A2BA8B1790A60E0010957D /* Build configuration list for PBXNativeTarget "mktestimg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A2BA8C1790A60E0010957D /* Debug */,
+				F0A2BA8D1790A60E0010957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08B11DB1790A58000B4E402 /* Project object */;
+}

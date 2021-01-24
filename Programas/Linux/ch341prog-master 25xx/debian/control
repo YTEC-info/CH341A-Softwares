@@ -1,0 +1,14 @@
+Source: ch341prog
+Priority: optional
+Maintainer: Anton Litvinov <jnashicq@gmail.com>
+Build-Depends: debhelper (>= 9), libusb-1.0-0-dev
+Standards-Version: 4.1.3
+Section: electronics
+Vcs-Git: https://github.com/Zensey/ch341prog.git
+Vcs-Browser: https://github.com/Zensey/ch341prog
+
+Package: ch341prog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple SPI/IIC programer based on ch341a
+

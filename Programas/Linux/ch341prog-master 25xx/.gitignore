@@ -1,0 +1,7 @@
+*.o
+*~
+ch341prog
+
+/debian/ch341prog\.debhelper\.log
+/debian/debhelper-build-stamp
+/debian/files

@@ -1,0 +1,1 @@
+flashrom --programmer ch341a_spi

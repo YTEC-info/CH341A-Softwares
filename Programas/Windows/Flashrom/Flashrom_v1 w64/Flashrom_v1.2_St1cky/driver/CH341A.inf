@@ -1,0 +1,24 @@
+[Version]
+Signature=$Windows NT$
+Class=USBDevice
+ClassGuid={88BAE032-5A81-49F0-BC3D-A4FF138216D6}
+Provider=Microsoft
+CatalogFile=CH341A.cat
+DriverVer=11/01/2017,1.0.0.0
+
+[Manufacturer]
+WCH=Device,NTx86,NTamd64
+
+[Device.NTx86]
+CH341A=Install,USB\VID_1A86&PID_5512
+
+[Device.NTamd64]
+CH341A=Install,USB\VID_1A86&PID_5512
+
+[Install]
+Include=WinUSB.inf
+Needs=WinUSB.NT
+
+[Install.Services]
+Include=WinUSB.inf
+Needs=WinUSB.NT.Services
