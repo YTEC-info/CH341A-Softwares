@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{F2433E38-DAC7-43D1-8A85-90272F18C715}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="common.lib">common\common.bdsproj</Projects>
+      <Projects Name="jsoncpp.lib">jsoncpp\jsoncpp.bdsproj</Projects>
+      <Projects Name="CH341A_tool.exe">CH341A\CH341A_tool.bdsproj</Projects>
+      <Projects Name="Targets">common.lib jsoncpp.lib CH341A_tool.exe</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{5A2C6F65-D176-4077-829F-5D6CA6F17D03}">
+        <Dependency GUID="{690A683A-7576-4D98-9293-8AA35B0903D5}"/>
+        <Dependency GUID="{B2993EC5-7934-47AB-AEEE-40DED652D62C}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>
