@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<settings>
-  <locale lang="en"/>
-  <options hw="ch341a" CHIP="" clear="0" skipff="1" unprot="0" verify="1" spi_speed="1_5Mhz" blankcheck="0" LoadLastDev="1"/>
-  <Windows DPI="96" Top="70" Left="305" LogH="97" Width="886" Height="619"/>
-</settings>
