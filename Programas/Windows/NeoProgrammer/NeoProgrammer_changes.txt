@@ -1,0 +1,139 @@
+
+With SREG edit, possibility to edit QE when bit is set, otherwise it is disabled.
+100ms delay between each busy status check during SPI 25 erase.
+SREG remove protection popup for erase and write SPI memories.
+delay of 10ms after writing status registers and 5ms in each control loop (except NAND).
+Repositioning of the Detect and Adapter buttons according to the content.
+///
+2.0.1.17
+///
+Fix AVR use with USBASP (+CS low at USBASP initialisation).
+Generalisation autosize.
+Fix detection of some old SPI components (using opcode AB and 15)
+AVR SPIEN plus codé en dur.
+modification of the reading / writing of status registers according to the type in statbits.xml.
+Dpi scaling de sregeditForm
+added item ID dans CurrentICParam
+no save to file dialog if buffer is empty.
+unlock button disabled by defaut.
+search datasheet button of current chip.
+SPI_25_EX4B plus utilisé.
+AVR import file bug fixed (when not multiple of page size).
+MACRONIX SPI flash protection removal enhancement. (when WPSEL=1)
+i2c write delay increased.
+visibility of progressbar for short delays.
+better support for high resolution screens
+verification of SPI ID <> 00 00
+support of I2C CT1C08 component.
+support of I2C (SPD) AT34C04 component.
+support of I2C 24C00 component.
+///
+2.1.0.18
+///
+93C46 8bits detection bug workaround
+///
+2.1.0.19
+///
+Changed 93Cxx detection algorithm (for 93C46).
+suppress 50h opcode before Write register (non volatile).
+Spi Nand protection bits set to zero silently for erase and program. 
+Spi Nand erase and program success/fail message based on e-fail and p-fail status.
+mainform parentfont to false.
+support of SPI F-RAMs.
+fix M25P05/M25P10/M25P20/M25P40/M25P80 detection of first generation chips.
+chiplist update.
+///
+
+2.2.0.0
+///
+bug fix: ICE25P05, AMIC A25L05 to A25L16 detection.
+Added Spare size value for SPI NANDs in chiplist and add corresponding _IC_Spare variable in scripts.
+No CRC calculation in scripts.
+CRC calculation in buffer Menu.
+Scripts update.
+chiplist, added Zetta, FMD, XTX manufacturers.
+Added M93S46, M93S56, M93S66, ER5911, ER5912, MSM16911, 93C57 support (special adapter required).
+support "MultiDies" SPI Nor and SPI Nand (like WINBOND W25M512JV, W25Q01JV, W25M02GV...)
+Programming time improvement of the SST old chips (time divided by 2.7 in worst case).
+Possibility to Read and Write the spare area of spi NANDs.(for advanced users)
+Better support of SPI and I2C F-RAMs (write speed = read speed, fast!).
+ASUS .CAP files support, at opening binary files are analysed and converted to bin if necessary (not based on file extension).
+Chip search improved, multicriteria by (chunk)name and voltage with * joker. ex: 25q*1.8 will list all xx25Qxxx with 1.8 volt 
+Various improvements concerning interface and algorithms.
+Access to help documents by right click on adapters and programmers.
+Chiplist structure update, + added and fixed many references.
+Possibility to see more CH341 based programmers like 'CH341 black' and 'CH341 green' with the of 3.3/5.0 volts  modifications, as well as the Chinese programmer with the positions reversed from the site https://skygz.taobao.com, (others under request).
+note: chiplist is no more editable, an import in data base can be done anyway (see document in chiplist.zip).
+
+2.2.0.1
+///
+bug fixed in AT45DB642 page size detection.
+2.2.0.2
+///
+New SPI DATA FLASH, AT45DB641, AT45DB322, AT45DB1282, AT25PE20, AT25PE40, AT25PE80, AT25PE16.
+Fixed compare error when the file size is smaller than the chip size.
+2.2.0.3
+///
+When press READ button, the editor buffer if prefilled with FF if it is empty. 
+Fixed blanck check error when the editor buffer is empty.
+2.2.0.4
+///
+The write buffer length is enlarge (if necessary) to be a multiple of the Page Size.
+Improved erasure control of SPI NOR chips. A warning message is displayed if the erase time is less than one second.
+Possibility to add custom programmer bitmaps and adaptators especially for for USBASP.
+2.2.0.5
+///
+MCU NU76E003 support improvement when locked.
+Added MICRON SPI N25W032A11, N25W064A11, N25W128A11. 
+fixed ST95P08 detection.
+New USBASP firmware to support 2.2.0.5 release (upgrade mandatory for USBASP users).
+Exclusion of the programmer based on CH552 chip (Minpro 341).
+Fixed AVR Eeprom address display.
+Added PCA9500 support.
+changed I2CWriteByte and I2CReadByte functions for scripts.
+fixed I2C verification.
+Improvement of I2C SPD 34x04 detection and protection removal.
+Improvement of AT45DB641E, AT45DB642D detection.
+2.2.0.6
+///
+Improvement of olds AT24C01, X24C01 support and detection. 
+fix of AVR verification error when buffer size is odd.
+Different handling of .hex to .bin conversion errors.
+2.2.0.7
+///
+.eep files are opened as .hex.
+The number of bytes per row is adjusted according to the width of the application, in a range of 16 to 32.
+fixed AT24C01, X24C01 read issue with USBASP.
+New USBASP firmware to support 2.2.0.7 release (upgrade mandatory for USBASP users).
+Fixed read/write bug of NOR flash over 256 Mbits when buffer size is less than 128Mbits.
+
+2.2.0.8
+///
+Added BR9010/20/21/40/41/80/16 support.
+EON, WINBOND, GIGADEVICE 'OTP/Security registers' support (SPI "Expert" option must be checked).
+fixed MSM16811 addressing bug.
+Improved the erasing process of PM25LQ512/010/020/040 chips.
+.eep files are opened in EEPROM TAB by default.
+Changed CT1C08 default chip size from 64 to 36 bytes.
+Added PUYA SPI NOR support.
+I2C SDP 34x04/34X02 detection and protection removal improvements.
+Improved the erasing and programming process of AT25DFxxx chips.
+IntelHex files import/export improvements.
+
+2.2.0.9
+///
+New chinese translation.
+Minor changes in translations of other languages.
+Fixed ESMT, MICRON Spi NAND 2 planes read/write bug.
+Added support of WINBOND W25Mxxx SpiStack (NOR + NAND).
+Added support of TC97101, TC89101/102, TC89121/122, CXK1011/12/24, M6M80011/21/41.
+Added support of AK93C45A/55A/65A/75A/85A/95A/10A.
+Added support of AK6420A/40A/80A/16A.
+Added support of X24165/325/645.
+Added support of TC9WMA1FK, TC9WMA2FK
+Swapped MSB<->LSB data of BR9010/20/40/80/16.
+Added support of AT90S1200,2313,2323,2343,4414,4434,4433,8515,8535, ATtiny12,15,22
+Added detection options.
+
+//2.2.0.10
+Fixed I2C detection bug

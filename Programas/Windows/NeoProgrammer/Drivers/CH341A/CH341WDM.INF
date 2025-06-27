@@ -1,0 +1,178 @@
+; CH341WDM.INF
+; Driver for CH341 (USB=>EPP/I2C/SPI... chip) V2.2
+; WDM for Windows 98/Me/2000/XP/Server2003/Vista/64bit Vista/Server2008/Win7/64bit Win7
+; Copyright (C) W.ch 2001-2009
+;
+
+[Version]
+Signature = "$Chicago$"
+Class     = WCH
+ClassGuid = {77989ADF-06DB-4025-92E8-40D902C03B0A}
+Provider  = %WinChipHead%
+DriverVer = 06/05/2009, 2.2.2009.06
+CatalogFile.NT = CH341WDM.CAT
+
+[ControlFlags]
+ExcludeFromSelect = USB\VID_1A86&PID_5512
+ExcludeFromSelect = USB\VID_4348&PID_5512
+;ExcludeFromSelect = USB\VID_1A86&PID_7523
+;ExcludeFromSelect = USB\VID_1A86&PID_5523
+;ExcludeFromSelect = USB\VID_4348&PID_5523
+;ExcludeFromSelect = USB\VID_4348&PID_5523&REV_0250
+
+[ClassInstall32]
+Addreg = WCHReg
+
+[ClassInstall]
+Addreg = WCHReg
+
+[WCHReg]
+HKR, , , 0, %ClassName%
+HKR, , Icon, , -5
+HKR, , NoInstallClass, , 1
+
+[Manufacturer]
+%WinChipHead% = WinChipHead,NT,NTamd64,NTia64
+
+[WinChipHead]
+%CH341A.DeviceDesc% = CH341.Install, USB\VID_1A86&PID_5512
+%CH341.DeviceDesc% = CH341.Install, USB\VID_4348&PID_5512
+;%CH340SER.DeviceDesc% = CH341.Install, USB\VID_1A86&PID_7523
+;%CH341ASER.DeviceDesc% = CH341.Install, USB\VID_1A86&PID_5523
+;%CH341SER.DeviceDesc% = CH341.Install, USB\VID_4348&PID_5523
+;%CH340SER.DeviceDesc% = CH341.Install, USB\VID_4348&PID_5523&REV_0250
+
+[WinChipHead.NT]
+%CH341A.DeviceDesc% = CH341.Install.NT, USB\VID_1A86&PID_5512
+%CH341.DeviceDesc% = CH341.Install.NT, USB\VID_4348&PID_5512
+;%CH340SER.DeviceDesc% = CH341.Install.NT.NTamd64, USB\VID_1A86&PID_7523
+;%CH341ASER.DeviceDesc% = CH341.Install.NT, USB\VID_1A86&PID_5523
+;%CH341SER.DeviceDesc% = CH341.Install.NT, USB\VID_4348&PID_5523
+;%CH340SER.DeviceDesc% = CH341.Install.NT, USB\VID_4348&PID_5523&REV_0250
+
+[WinChipHead.NTamd64]
+%CH341A.DeviceDesc% = CH341.Install.NTamd64, USB\VID_1A86&PID_5512
+%CH341.DeviceDesc% = CH341.Install.NTamd64, USB\VID_4348&PID_5512
+;%CH340SER.DeviceDesc% = CH341.Install.NTamd64, USB\VID_1A86&PID_7523
+;%CH341ASER.DeviceDesc% = CH341.Install.NTamd64, USB\VID_1A86&PID_5523
+;%CH341SER.DeviceDesc% = CH341.Install.NTamd64, USB\VID_4348&PID_5523
+;%CH340SER.DeviceDesc% = CH341.Install.NTamd64, USB\VID_4348&PID_5523&REV_0250
+
+[WinChipHead.NTia64]
+%CH341A.DeviceDesc% = CH341.Install.NTia64, USB\VID_1A86&PID_5512
+%CH341.DeviceDesc% = CH341.Install.NTia64, USB\VID_4348&PID_5512
+;%CH340SER.DeviceDesc% = CH341.Install.NTia64, USB\VID_1A86&PID_7523
+;%CH341ASER.DeviceDesc% = CH341.Install.NTia64, USB\VID_1A86&PID_5523
+;%CH341SER.DeviceDesc% = CH341.Install.NTia64, USB\VID_4348&PID_5523
+;%CH340SER.DeviceDesc% = CH341.Install.NTia64, USB\VID_4348&PID_5523&REV_0250
+
+[CH341.Install]
+CopyFiles = CH341.CopyFiles.SYS, CH341.CopyFiles.DLL
+AddReg    = CH341.9X.AddReg, CH341.AddReg
+
+[CH341.Install.NT]
+CopyFiles = CH341.CopyFiles.SYS, CH341.CopyFiles.DLL
+AddReg    = CH341.NT.AddReg, CH341.AddReg
+
+[CH341.Install.NTamd64]
+CopyFiles = CH341.CopyFiles.SYSA64, CH341.CopyFiles.DLL
+AddReg    = CH341.NT.AddReg, CH341.AddReg
+
+[CH341.Install.NTia64]
+CopyFiles = CH341.CopyFiles.SYSI64, CH341.CopyFiles.DLL
+AddReg    = CH341.NT.AddReg, CH341.AddReg
+
+[CH341.CopyFiles.SYS]
+CH341WDM.SYS, , , 2
+
+[CH341.CopyFiles.SYSA64]
+CH341W64.SYS, , , 2
+
+[CH341.CopyFiles.SYSI64]
+;CH341I64.SYS, , , 2
+
+[CH341.CopyFiles.DLL]
+CH341DLL.DLL, , , 2
+
+[CH341.9X.AddReg]
+HKR, , DevLoader, , *NTKERN
+HKR, , NTMPDriver, , CH341WDM.SYS
+
+[CH341.NT.AddReg]
+
+[CH341.AddReg]
+HKLM, SOFTWARE\WinChipHead\IC\CH341, WDM, 0x00010001, 0x00000022
+HKLM, SOFTWARE\WinChipHead\IC\CH341, DLL, 0x00010001, 0x00000021
+HKLM, SOFTWARE\WinChipHead\IC\CH341, Function, , "USB=>Parallel"
+
+[CH341.Install.NT.Services]
+AddService = CH341, 2, CH341.Service
+
+[CH341.Install.NTamd64.Services]
+AddService = CH341_A64, 2, CH341.ServiceA64
+
+[CH341.Install.NTia64.Services]
+AddService = CH341_I64, 2, CH341.ServiceI64
+
+[CH341.Service]
+DisplayName   = "CH341WDM"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\System32\Drivers\CH341WDM.SYS
+
+[CH341.ServiceA64]
+DisplayName   = "CH341WDM_A64"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\System32\Drivers\CH341W64.SYS
+
+[CH341.ServiceI64]
+DisplayName   = "CH341WDM_I64"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\System32\Drivers\CH341I64.SYS
+
+[DestinationDirs]
+DefaultDestDir      = 10, System32\Drivers
+CH341.CopyFiles.DLL = 11
+CH341.CopyFiles.SYS = 10, System32\Drivers
+CH341.CopyFiles.SYSA64 = 10, System32\Drivers
+;CH341.CopyFiles.SYSI64 = 10, System32\Drivers
+
+[SourceDisksFiles]
+CH341WDM.SYS  = 1
+CH341DLL.DLL  = 1
+CH341W64.SYS  = 1
+;CH341I64.SYS  = 1
+
+[SourceDisksNames]
+1 = %DISK_NAME%, CH341WDM.SYS, ,
+
+[SourceDisksNames.amd64]
+1 = %DISK_NAME%, CH341W64.SYS, ,
+
+[SourceDisksNames.ia64]
+1 = %DISK_NAME%, CH341I64.SYS, ,
+
+[Strings]
+ClassName        = "Interface"
+WinChipHead      = "wch.cn"
+CH341.DeviceDesc = "USB-EPP/I2C... CH341"
+CH341A.DeviceDesc = "USB-EPP/I2C... CH341A"
+CH341SER.DeviceDesc = "USB-SERIAL CH341"
+CH340SER.DeviceDesc = "USB-SERIAL CH340"
+CH341ASER.DeviceDesc = "USB-SERIAL CH341A"
+DISK_NAME = "CH341 Parallel Installation Disk"
+
+[Strings.0804]
+ClassName        = "外部接口"
+WinChipHead      = "wch.cn"
+CH341.DeviceDesc = "USB-EPP/I2C... CH341"
+CH341A.DeviceDesc = "USB-EPP/I2C... CH341A"
+CH341SER.DeviceDesc = "USB-SERIAL CH341"
+CH340SER.DeviceDesc = "USB-SERIAL CH340"
+CH341ASER.DeviceDesc = "USB-SERIAL CH341A"
+DISK_NAME = "CH341 Parallel Installation Disk"

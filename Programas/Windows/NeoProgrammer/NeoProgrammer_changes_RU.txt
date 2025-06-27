@@ -1,0 +1,139 @@
+
+With SREG edit, possibility to edit QE when bit is set, otherwise it is disabled.
+100ms delay between each busy status check during SPI 25 erase.
+SREG remove protection popup for erase and write SPI memories.
+ajout d'un delais de 10ms apres l'ecriture des status registers et 5ms dans chaque boucle de controle(sauf NAND).
+
+Repositionnement des boutons Detect et Adaptateur en fonction du contenu.
+///
+2.0.1.17
+///
+Fix AVR use with USBASP (+CS low at USBASP initialisation).
+Generalisation autosize.
+Fix detection of some old SPI components (using opcode AB and 15)
+AVR SPIEN plus codé en dur.
+modification de la lecture/ecriture des status register en fonction du type dans statbits.xml.
+Dpi scaling de sregeditForm
+ajout item ID dans CurrentICParam
+no save to file dialog if buffer is empty.
+unlock button disabled by defaut.
+search datasheet button of current chip.
+SPI_25_EX4B plus utilisé.
+AVR import file bug fixed (when not multiple of page size).
+MACRONIX SPI flash protection removal enhancement. (when WPSEL=1)
+i2c write delay increased.
+visibility of progressbar for short delays.
+better support for high resolution screens
+verification of SPI ID <> 00 00
+support of I2C CT1C08 component.
+support of I2C (SPD) AT34C04 component.
+support of I2C 24C00 component.
+///
+2.1.0.18
+///
+93C46 8bits detection bug workaround
+///
+2.1.0.19
+///
+Changed 93Cxx detection algorithm (for 93C46).
+suppress 50h opcode before Write register (non volatile).
+Spi Nand protection bits set to zero silently for erase and program. 
+Spi Nand erase and program success/fail message based on e-fail and p-fail status.
+mainform parentfont to false.
+support of SPI F-RAMs.
+fix M25P05/M25P10/M25P20/M25P40/M25P80 detection of first generation chips.
+chiplist update.
+///
+
+2.2.0.0
+///
+Исправлено: обнаружение ICE25P05, AMIC A25L05...A25L16.
+Добавлено значение размера резервной области для SPI NAND в chiplist и добавлена ​​соответствующая переменная _IC_Spare в скриптах.
+Нет расчета CRC в скриптах.
+Расчет CRC в меню буфера.
+Обновление скриптов.
+chiplist, добавлены производители Zetta, FMD, XTX.
+Добавлена поддержка M93S46, M93S56, M93S66, ER5911, ER5912, MSM16911, 93C57 (требуется специальный адаптер).
+Поддержка "MultiDies" SPI Nor и SPI Nand (подобно WINBOND W25M512JV, W25Q01JV, W25M02GV...)
+Улучшение времени программирования старых микросхем SST (время сократилось в 2,7 раза в худшем случае).
+Возможность чтения и записи резервной области SPI NAND. (для опытных пользователей)
+Улучшена поддержка SPI и I2C F-RAMs (скорость записи = скорость чтения, быстро!).
+Поддержка файлов ASUS .CAP , при открытии двоичные файлы анализируются и при необходимости конвертируются в bin (независимо от расширения файла).
+Улучшен поиск чипов, мультикритерий по названию(куску) и напряжению с джокером '*'. напр.: 25q*1.8 покажет все xx25Qxxx с питанием 1.8В  
+Различные улучшения интерфейса и алгоритмов.
+Доступ к справочным документам, по щелчку правой кнопкой мыши на адаптерах и программаторах.
+Chiplist, обновление структуры, + добавлено и исправлено много позиций.
+Возможность видеть больше программаторов на базе CH341, таких как 'CH341 black' и 'CH341 green' с модификациями 3,3/5,0 вольт, а также китайский программатор с перевернутым положением микросхем с сайта https://skygz.taobao.com, ( другие по запросу)
+примечание: chiplist больше не редактируется, но импорт в базу данных можно сделать в любом случае (см. документы в chiplist.zip).
+
+2.2.0.1
+///
+Исправлена ошибка обнаружения размера страницы AT45DB642.
+2.2.0.2
+///
+Новый SPI DATA FLASH, AT45DB641, AT45DB322, AT45DB1282, AT25PE20, AT25PE40, AT25PE80, AT25PE16.
+Исправлена ошибка сравнения, когда размер файла меньше, чем размер чипа.
+2.2.0.3
+///
+При нажатии кнопки READ буфер редактора предварительно заполняется FF, если он пуст. 
+Исправлена ошибка с «blankcheck», когда буфер редактора пуст.
+2.2.0.4
+///
+Длина буфера записи увеличивается (при необходимости), чтобы быть кратной размеру страницы.
+Улучшен контроль стирания чипов SPI NOR. Предупреждающее сообщение отображается, если время стирания меньше одной секунды.
+Возможность добавления пользовательских растровых изображений и адаптера программиста специально для USBASP.
+2.2.0.5
+///
+Улучшение поддержки MCU NU76E003.
+Добавлен MICRON SPI N25W032A11, N25W064A11, N25W128A11.
+исправлено обнаружение ST95P08.
+Новая прошивка USBASP для поддержки версии 2.2.0.5 (обновление обязательно для пользователей USBASP).
+Исключение программатора на основе чипа CH552 (Minpro 341).
+Исправлен дисплей AVR Eeprom.
+Добавлена поддержка PCA9500.
+исправлены функции I2CWriteByte и I2CReadByte для скриптов.
+исправлена проверка I2C.
+Улучшение обнаружения I2C SPD 34x04 и снятие защиты.
+Улучшение обнаружения AT45DB641E и AT45DB642D.
+2.2.0.6
+///
+Улучшение поддержки и обнаружения старых AT24C01, X24C01.
+исправление ошибки проверки AVR при нечетном размере буфера.
+Различная обработка ошибок преобразования .hex в .bin.
+2.2.0.7
+///
+Файлы .eep открываются как .hex.
+Количество байтов в строке регулируется в соответствии с шириной приложения в диапазоне от 16 до 32.
+исправлена проблема чтения AT24C01, X24C01 с USBASP.
+Новая прошивка USBASP для поддержки версии 2.2.0.7 (обновление обязательно для пользователей USBASP).
+Исправлена ошибка чтения / записи NOR flash более 256 Мбит, когда размер буфера меньше 128 Мбит.
+2.2.0.8
+///
+Добавлена поддержка BR9010 / 20/21/40/41/80/16.
+Поддержка EON, WINBOND, GIGADEVICE 'OTP / Security registers' (должна быть отмечена опция SPI "Expert").
+исправлена ошибка адресации MSM16811.
+Улучшен процесс стирания микросхем PM25LQ512 / 010/020/040.
+Файлы .eep по умолчанию открываются во вкладке EEPROM.
+Размер чипа по умолчанию CT1C08 изменен с 64 до 36 байт.
+Добавлена поддержка PUYA SPI NOR.
+Улучшения обнаружения и удаления защиты I2C SDP 34x04 / 34X02.
+Улучшен процесс стирания и программирования микросхем AT25DFxxx.
+Улучшения импорта / экспорта файлов IntelHex.
+
+2.2.0.9
+///
+Новый китайский перевод.
+Незначительные изменения в переводах на другие языки.
+Исправлена ошибка чтения / записи 2 'planes'  ESMT, MICRON Spi NAND.
+Добавлена поддержка WINBOND W25Mxxx SpiStack (NOR + NAND).
+Добавлена поддержка TC97101, TC89101 / 102, TC89121 / 122, CXK1011 / 12/24, M6M80011 / 21/41.
+Добавлена поддержка AK93C45A / 55A / 65A / 75A / 85A / 95A / 10A.
+Добавлена поддержка AK6420A / 40A / 80A / 16A.
+Добавлена поддержка X24165 / 325/645.
+Добавлена поддержка TC9WMA1FK, TC9WMA2FK.
+Поменяны местами MSB <-> LSB данные BR9010 / 20/40/80/16.
+Добавлена поддержка AT90S1200,2313,2323,2343,4414,4434,4433,8515,8535, ATtiny12,15,22
+Добавлены опции обнаружения.
+
+//2.2.0.10
+Исправлена ошибка обнаружения I2C

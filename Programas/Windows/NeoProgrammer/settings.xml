@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <detectopt AVRDet="1" MCUDet="0" KB90Det="0" MWActiveDet="0" I2CActiveDet="0" MWPassiveDet="1" I2CPassiveDet="1" EEPromActiveDet="0" EEPromPassiveDet="1"/>
+  <locale lang="ru"/>
+  <options hw="ch341_black" clear="0" skipff="1" unprot="0" verify="0" chipname="" SPIExpert="1" ShowLinks="1" spi_speed="1_5Mhz" InitialDir="" blankcheck="0" LoadLastDev="1" SaveFhistory="1"/>
+  <Windows DPI="96" Top="69" Left="357" LogH="208" Width="886" Height="659"/>
+  <ChipHistory list=""/>
+  <FileHistory/>
+</settings>
